@@ -1,5 +1,6 @@
 # laravel-htaccess
 
+```bash
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
@@ -20,3 +21,4 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php
 </IfModule>
+```
